@@ -16,13 +16,13 @@ SES:SendTemplatedEmail IAM permissions.
 You can test it once configured with the example SNS payload before
 associating it to an alarm with an SNS topic/subscription.
 
-| Name                    | Purpose                                                      |
-|-------------------------|--------------------------------------------------------------|
-| SES_TEMPLATE            | The SES template to use for this SendTemplatedEmail request. |
-| EMAIL_FROM_ADDRESS      | The email address in the `from` field.                       |
-| EMAIL_TO_ADDRESSES      | The email address in the `to` field.                         |
-| EMAIL_CC_ADDRESSES      | The optional email address in the `cc` field.                |
-| EMAIL_REPLY_TO_ADRESSES | The email address in the `reply-to` field.                   |
+| Name                      | Purpose                                                      |
+|---------------------------|--------------------------------------------------------------|
+| `SES_TEMPLATE`            | The SES template to use for this SendTemplatedEmail request. |
+| `EMAIL_FROM_ADDRESS`      | The email address in the `from` field.                       |
+| `EMAIL_TO_ADDRESSES`      | The email address in the `to` field.                         |
+| `EMAIL_CC_ADDRESSES`      | The optional email address in the `cc` field.                |
+| `EMAIL_REPLY_TO_ADRESSES` | The email address in the `reply-to` field.                   |
 
 ## Licence
 
